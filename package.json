@@ -1,0 +1,13 @@
+{
+  "name": "codeship-n-docker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dockerode": "^2.5.3"
+  }
+}

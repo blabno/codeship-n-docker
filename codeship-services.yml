@@ -1,0 +1,13 @@
+service-x:
+  build:
+    image: example.com/service-x
+    dockerfile: Dockerfile
+#  links:
+#    - quick-run
+  add_docker: true
+quick-run:
+  build:
+    image: example.com/quick-run
+    context: docker-images/quick-run
+    dockerfile: Dockerfile
+  command: sleep 5
